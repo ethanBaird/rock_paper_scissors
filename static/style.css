@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f21b3f53 ;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #08BDBD;
+    width: 80%;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #F21B3F;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ABFF4F;
+    width: 80%;
+    border-radius: 10px;
+}
+
+main h2 {
+    color: #F21B3F;
+}
+
+main p {
+    color: #F21B3F;
+}

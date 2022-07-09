@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main>
+    <section>
+        <h2>Play</h2>
+        <p>So you want to take on the computer?</p>
+        <p>Think you've got what it takes?</p>
+        <p>Enter your name and choice below and we'll see shall we?</p>
+    </section>
+    <form action="/play" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name">
+        <select name="choice" id="choice">
+            <option value="" disabled selected>Choose your weapon!</option>
+            <option value="rock">rock</option>
+            <option value="rock">paper</option>
+            <option value="rock">scissors</option>
+        </select>
+        <button type="submit">Fight!!!</button>
+    </form>
+
+</main>
+    
+{% endblock content %}

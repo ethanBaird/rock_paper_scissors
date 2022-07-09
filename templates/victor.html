@@ -2,7 +2,18 @@
 
 {% block  content %}
     <body>
-        {{ winner }}
+        <main>
+            <section class="result"></section>
+            {% if winner != None %}
+                <p>And the winner is {{ winner }}!!!</p>
+            {% else %}
+                <p>It was a draw!</p>
+            {% endif %}
+            <form action="/play">
+                <button type="submit">Play the computer?</button>
+            </form>
+
+        </main>
     </body>
 {% endblock  %}
    
