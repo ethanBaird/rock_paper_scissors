@@ -3,7 +3,8 @@
 {% block  content %}
     <body>
         <main>
-            <section class="result"></section>
+            <div class="play-friend">
+                <section class="result"></section>
             {% if winner != None %}
                 <p>And the winner is {{ winner }}!!!</p>
             {% else %}
@@ -12,7 +13,7 @@
             <form action="/play">
                 <button type="submit">Play the computer?</button>
             </form>
-
+            </div>
         </main>
     </body>
 {% endblock  %}

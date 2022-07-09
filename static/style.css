@@ -2,35 +2,139 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f21b3f53 ;
+    background-color: #F4EDED ;
+    font-family: 'Acme', sans-serif;
 }
 
 header {
     display: flex;
-    justify-content: center;
-    background-color: #08BDBD;
-    width: 80%;
+    justify-content: space-around;
+    background-color: #464D77;
     margin: 1rem;
     border-radius: 10px;
+    border: 1px solid #F4EDED;
+    width: 80%
+}
+
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li {
+    padding:1rem;
 }
 
 h1 {
-    color: #F21B3F;
+    color: #F4EDED;
 }
 
 main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #ABFF4F;
-    width: 80%;
+    background-color: #36827F;
+    margin:1rem;
     border-radius: 10px;
+    border: 1px solid #F4EDED;
+    text-align: center;
+    width: 80%
 }
 
 main h2 {
-    color: #F21B3F;
+    color: #F4EDED;
 }
 
 main p {
-    color: #F21B3F;
+    color: #F4EDED;
+}
+
+.friend-or-comp {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body h3 {
+    color: #F4EDED;
+}
+
+.play-friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#464D77;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #F4EDED;
+}
+
+.play-computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #464D77;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #F4EDED;
+}
+
+a {
+    text-decoration: none;
+    color: #F4EDED;
+    font-family: 'Acme', sans-serif;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+
+}
+
+form input {
+    color: #F4EDED;
+    height: 100%;
+    margin: none;
+    font-family: 'Acme', sans-serif; 
+    padding: 1px 2px; 
+    background-color: #36827F;
+    width: 30%;
+    border: 2px inset #F4EDED;
+    border-radius: 10px;
+}
+
+form input::placeholder {
+    color: #F4EDED;
+    font-family: 'Acme', sans-serif;
+    padding: 1px 2px
+}
+
+form select {
+    color: #F4EDED;
+    height: 100%;
+    margin: none;
+    padding: 1px 2px;
+    font-family: 'Acme', sans-serif;
+    background-color: #36827F;
+    width: 30%;
+    border: 2px inset #F4EDED;
+    border-radius: 10px;
+}
+
+form button{ 
+    color: #F4EDED;
+    height: 100%;
+    padding: 1px 2px;
+    margin: none;
+    font-family: 'Acme', sans-serif;
+    width: 30%;
+    background-color: #36827F;
+    border: 2px outset #F4EDED;
+    border-radius: 10px;
 }
